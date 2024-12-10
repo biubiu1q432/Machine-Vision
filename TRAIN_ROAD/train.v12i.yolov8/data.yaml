@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['train']
+
+roboflow:
+  workspace: q-dy2lp
+  project: train-3nfiz
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/q-dy2lp/train-3nfiz/dataset/14
