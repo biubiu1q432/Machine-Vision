@@ -9,10 +9,11 @@ ret, thresh = cv2.threshold(gray, 127, 255, 0)
 kernel = np.ones((5,5),np.uint8)
 dilation = cv2.dilate(thresh,kernel,iterations = 1)
 
-#轮廓
-judge_index = 2
-y_dis = 43
+
+judge_index = 2 #分界线
+y_dis = 43  #步长
 x_dis = 5
+
 points = []
 colors = []
 center_points=[]
